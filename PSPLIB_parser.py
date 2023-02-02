@@ -50,6 +50,6 @@ def PSPLIB_parser(filepath):
   demands = [ ints(lines[ix].split()[3:]) for ix in range(attrs_offset, attrs_offset+njobs) ]
   capacities = ints(lines[caps_offset].split())
   
-  return (njobs, nperiods, jobs, res, periods, succs, durations, demands, capacities)
+  return (njobs, nres, nperiods, jobs, res, periods, succs, durations, demands, capacities)
 
 
