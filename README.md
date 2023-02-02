@@ -15,7 +15,7 @@ exec(open(filename).read())
 
 # get path to the PSPLIB input file
 filepath = "j301_1.sm"
-njobs, nperiods, jobs, res, periods, succs, durations, demands, capacities = PSPLIB_parser(filepath)
+njobs, nres, nperiods, jobs, res, periods, succs, durations, demands, capacities = PSPLIB_parser(filepath)
 
 print(njobs, nperiods)
 print(jobs, res, periods)
