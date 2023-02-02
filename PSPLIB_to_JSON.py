@@ -19,10 +19,9 @@ aList = {'njobs': njobs,
             'jobs': jobs,
             'res': res,
             'durations': durations,
-            'succs': succs,
+            'succs': list(succs.values()),
             'demands': demands,
             'capacities': capacities
             }
 jsonStr = json.dumps(aList)
 print(jsonStr)
-
