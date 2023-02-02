@@ -16,7 +16,6 @@ jsonStr = json.dumps(jobs)
 aList = {'njobs': njobs, 
           'nres': nres,
           'nperiods': nperiods,
-          'periods': periods,
             'jobs': jobs,
             'res': res,
             'durations': durations,
